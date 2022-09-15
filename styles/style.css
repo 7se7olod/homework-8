@@ -1,0 +1,166 @@
+@font-face {
+    font-family: Nunito-SemiBold;
+    src: url("../fonts/Nunito/Nunito-SemiBold.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    font-family: Nunito-SemiBold, sans-serif;
+    background: linear-gradient(to right, white 50%, #F8F8FA 50%);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 27px 0 56px 0 ;
+}
+
+.container {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    padding: 56px 0 191px 0;
+    margin: 0 65px 0 65px;
+}
+
+.main-container {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 96px;
+}
+
+.main-image {
+    max-height: 600px;
+}
+
+.main-image > img {
+    max-width: 543px;
+    max-height: 600px;
+}
+
+.main-form {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.main-title {
+    font-size: 36px;
+    color: #000000;
+    padding: 0 0 10px 0;
+}
+
+.main-text {
+    font-family: Nunito-SemiBold, sans-serif;
+    font-size: 22px;
+    line-height: 27px;
+    color: #636363;
+    max-width: 452px;
+    padding: 0 0 60px 0;
+}
+
+.main-form > label > span {
+    font-size: 16px;
+    color: #C6C6C4;
+    margin-bottom: 5px;
+}
+
+.main-form > label {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-form-input {
+    font-family: Nunito-SemiBold, sans-serif;
+    color: #323232;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #C6C6C4;
+    width: 452px;
+    height: 35px;
+    margin-bottom: 25px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.form-terms > span {
+    font-size: 16px;
+    color: #636363;
+    margin-left: 10px;
+}
+
+.main-form .form-terms {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 45px;
+}
+
+.button {
+    font-family: Nunito-SemiBold, sans-serif;
+    align-self: center;
+    margin-bottom: 45px;
+    width: 210px;
+    height: 70px;
+    border: none;
+    border-radius: 40px;
+    background: #DD3142;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.main-form > a {
+    align-self: center;
+    font-size: 16px;
+    color: #636363;
+    text-decoration: none;
+}
+
+.popup {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(50, 50, 50, 0.82);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.popup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F8F8FA;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 40px;
+}
+
+.popup-text {
+    font-size: 18px;
+    padding: 20px 30px 0 30px;
+}
+
+.popup-container > button {
+    margin-bottom: 10px;
+}

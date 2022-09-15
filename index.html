@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Домашнее задание 8</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <a href="#">
+            <img src="images/homeWorks.png" alt="homeWorks-image">
+        </a>
+    </div>
+</header>
+
+<section class="main">
+    <div class="main-container">
+        <div class="main-section">
+            <h2 class="main-title" id="main-title">Get your free account</h2>
+            <p class="main-text">Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever) anytime.</p>
+            <form action="" class="main-form">
+                <label>
+                    <span id="fullName-title">Full Name</span>
+                    <input type="text" class="main-form-input" id="input-full-name" name="fullName" data-value="Full Name">
+                </label>
+                <label>
+                    <span>Your username</span>
+                    <input type="text" class="main-form-input" id="input-username" name="userName" data-value="User Name">
+                </label>
+                <label>
+                    <span id="email-title">E-mail</span>
+                    <input type="text" class="main-form-input" id="input-email" name="email" data-value="E-mail">
+                </label>
+                <label>
+                    <span>Password</span>
+                    <input type="password" class="main-form-input" id="input-password" name="password" data-value="Password">
+                </label>
+                <label>
+                    <span id="repeat-password-title">Repeat Password</span>
+                    <input type="password" class="main-form-input" id="input-repeat-password" name="repeatPassword" data-value="Repeat Password">
+                </label>
+                <label class="form-terms" id="form-terms">
+                    <input type="checkbox" id="main-checkbox">
+                    <span>Agree to our Terms of Service and Privacy Statement</span>
+                </label>
+                <button type="button" class="button" id="main-button">Sign Up</button>
+                <a href="#" id="main-link">Already have an account?</a>
+            </form>
+        </div>
+        <div class="main-image">
+            <img src="images/img.png" alt="main-image-raketa">
+        </div>
+    </div>
+</section>
+
+<div class="popup" id="popup-success">
+    <div class="popup-container">
+        <p class="popup-text">На вашу почту выслана ссылка, перейдите по ней, чтобы завершить регистрацию</p>
+        <button class="button" id="button-ok">OK</button>
+    </div>
+</div>
+
+<script src="scripts/script.js"></script>
+</body>
+</html>
